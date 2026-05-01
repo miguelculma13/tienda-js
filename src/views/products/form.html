@@ -53,12 +53,12 @@
           <div class="grid gap-4 sm:grid-cols-2">
             <div>
               <label for="id" class="text-sm font-medium text-slate-700">id</label>
-              <input id="id" name="id" type="number" placeholder="Autogenerado" class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-2 text-sm text-slate-700 outline-none" disabled />
+              <input id="id" name="id" type="number" placeholder="Autogenerado" class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-2 text-sm text-slate-700 outline-none" />
             </div>
 
             <div>
               <label for="creadoEn" class="text-sm font-medium text-slate-700">creadoEn</label>
-              <input id="creadoEn" name="creadoEn" type="datetime-local" class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-2 text-sm text-slate-700 outline-none" disabled />
+              <input id="creadoEn" name="creadoEn" type="datetime-local" class="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-2 text-sm text-slate-700 outline-none" />
             </div>
 
             <div class="sm:col-span-2">
@@ -101,7 +101,7 @@
             <a href="./list.html" class="inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50">
               Cancelar
             </a>
-            <button type="submit" class="inline-flex items-center justify-center rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+            <button id="btn_guardar_producto" type="button" class="inline-flex items-center justify-center rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
               Guardar
             </button>
           </div>
@@ -116,5 +116,6 @@
         </div>
       </footer>
     </div>
+    <script type="module" src="../../controllers/ProductController.js"></script>
   </body>
 </html>
